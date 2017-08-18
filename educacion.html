@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<title>Curriculum Vitae</title>
+</head>
+<body>
+	<svg>
+		<image xlink:href="img/logo.svg" width="200px" height="150px"></image>
+	</svg>
+	<h1>Resumen Curricular</h1>
+		<h2>Datos Personales</h2>
+			<h3>Steven Sevillano Renteria</h3>
+			<h3>Fecha de Nacimiento: 26/02/1986</h3>
+			<h3>Lugar: Cali</h3>
+		<ul>
+    	<li><a href="index.html">Inicio</a></li>
+    	<li><a href="experiencia.html">Experiencia</a></li>
+    	</ul>
+    	<h2>Educación</h2>
+    		<table border="">
+
+    			<thead>
+    				<th>Fecha Inicio</th>
+    				<th>Fecha Fin</th>
+    				<th>Tipo de Estudio</th>
+    				<th>Institución</th>
+    				<th>Lugar</th>
+    				<th>¿Culminó?</th>
+    			</thead>
+    			<tbody>
+    			<tr>
+    				<td>1997</td>
+    				<td>2003</td>
+    				<td>Secundaria</td>
+    				<td>Comfandí Ciudadela</td>
+    				<td>Cali</td>
+    				<td>Si</td>
+    			</tr>
+    			<tr>
+    				<td>2005</td>
+    				<td>2012</td>
+    				<td>Pregrado</td>
+    				<td>U. Autónoma de Occidente</td>
+    				<td>Cali</td>
+    				<td>Si</td>
+    			</tr>
+    			<tr>
+    				<td>2012</td>
+    				<td>2012</td>
+    				<td>Postgrado</td>
+    				<td>U. Autónoma de Occidente</td>
+    				<td>Cali</td>
+    				<td>No</td>
+    			</tr>
+    			</tbody>
+    		</table>
+
+    		<form><h3>Agregar Estudios</h3>
+    			<p>
+	    			<table>
+	    				<tr>
+	    					<th>Fecha Inicio: </th>
+	    					<td><input type="month" step="1" name="inicio" required></td>
+	    				</tr>
+	    				<tr>
+	    					<th>Fecha Fin: </th>
+	    					<td><input type="month" step="1" name="fin" required></td>
+	    				</tr>
+	    			</table>
+    			</p>
+    			<p>
+    				<label for="tipo"><b>Tipo de Estudiio:</b><br></label>
+    				<select name="tipoEstudio" required>
+    					<option value=""></option>
+    					<option value="1">Primaria</option>
+    					<option value="1">Secundaria</option>}
+    					<option value="1">Técnico</option>
+    					<option value="1">Técnologo</option>
+    					<option value="1">Profesional</option>
+    					<option value="1">Postgrado</option>
+    					<option value="1">Curso</option>
+    				</select>
+    			</p>
+    			<p>
+    				<label for="institucion"><b>Institución:</b><br></label>
+    				<input type="text" required>
+    			</p>
+    			<p>
+    				<label for="lugar"><b>Lugar: </b><br></label>
+    				<input type="text">
+    			</p>
+    			<p>
+    			<label for="culmino"><b>¿Culminó?</b><br/></label>
+					<input type="radio" name="culmino" required="culmino"> Si
+					<input type="radio" name="culmino" required="culmino"> No
+				</p>
+				<p>
+					<input type="submit" value="Enviar"></input>
+				</p>
+    		</form>
+</body>
+<footer>
+	<h2>Contacto</h2>
+	<ul>
+		<li>E-mail: steven.sevillano@outlook.com</li>
+		<li>Teléfono: (572)3015415981</li>
+		<li>Facebook: <a href="https://www.facebook.com/bys.enetwork" target="_blank"><img src="img/facebook.png" width="20px" height="15px"> facebook/bys.enetwork</a></li>
+		<li>Dirección: Carrera 9 #9-26, Pueblo Nuevo, Buenaventura</li>
+	</ul>
+</footer>
+</html>
